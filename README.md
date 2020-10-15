@@ -1,4 +1,10 @@
 # ¿Qué es OAUTH?
+
+- Estandar abierto para autorización y cualquiera lo puede implementar.
+
+
+
+
 Es una estandar [open-source](https://www.redhat.com/es/topics/open-source/what-is-open-source#:~:text=Originalmente%2C%20la%20expresi%C3%B3n%20open%20source,la%20forma%20que%20consideren%20conveniente.)
 para construir un *framework* que permita a las aplicaciones de terceros (`el cliente`) acceder a recursos protegidos desde otra aplicación (`el proveedor` o  `dueño del recurso`) a petición de un usuario (`usuario`) de la aplicación cliente.
 
@@ -14,3 +20,8 @@ Por ejemplo, twitter utiliza el OAuth como protocolo para todos sus clientes(usu
 - *Usuario / usuario final* : Entidad que da inicio al flujo OAuth para permitir que el cliente acceda a los datos protegidos del proveedor.
 
 - *Client id/ client secret* : A menudo, las aplicaciones de proveedores mantendran una lista de clientes que pueden acceder a los datos. Las aplicaciones clientes se pueden identificar de varias formas, mayormente lo hacen con un id y un secreto.
+
+
+## Recursos adicionales para revisar
+[oauth-okta-volver a revisar](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth)
+[oauth-nylas](https://www.nylas.com/blog/integrate-google-oauth?gclid=CjwKCAjww5r8BRB6EiwArcckC32jniDUYB44DTuWUZlRboeXxtwmVFNfKCuozVgvX4KpQ8DDIDLH9hoCmPsQAvD_BwE)
